@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "mmsystem.h": "c",
+        "windows.h": "c",
+        "clean_wav.h": "c",
+        "qifsha.h": "c"
+    }
+}

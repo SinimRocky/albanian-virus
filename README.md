@@ -19,7 +19,7 @@ Compiling
 If you have [Zig][2] installed, you can just run this:
 
 ```sh
-clang albanian-virus.c -o virus.exe --target=x86_64-w64-mingw32 -mwindows -luser32 -lwinmm
+clang albanian-virus.c -o le_funi.exe --target=x86_64-w64-mingw32 --sysroot=/usr/x86_64-w64-mingw32 -L/usr/lib/gcc/x86_64-w64-mingw32/10-posix -mwindows -luser32 -lwinmm -lshlwapi
 ```
 
 Other C compilers should also work, but I didn't bother testing them since `zig cc` is the only one that can easily cross-compile (I don't use Windows)
